@@ -38,7 +38,7 @@ function Product() {
               />
             </div>
 
-            {/* Additional Images */}
+           
             <div className="flex justify-between mt-4">
               {[electronic1, electronic2, electronic3, electronic4].map(
                 (img, index) => (
