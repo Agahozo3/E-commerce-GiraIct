@@ -1,4 +1,4 @@
-"use client"; // Add this line to mark the component as a Client Component
+"use client"; 
 
 import Image, { StaticImageData } from "next/image";
 import { SetStateAction, useState } from "react";
@@ -9,13 +9,7 @@ import electronic4 from "../assets/electronic4.jpg";
 import Landing from "./Landing";
 import Footer from "./Footer";
 
-import {
-  FaEye,
-  FaArrowLeft,
-  FaArrowRight,
-  FaSearchPlus,
-  FaSearchMinus,
-} from "react-icons/fa";
+
 
 function Product() {
   const [mainImage, setMainImage] = useState(electronic1);
