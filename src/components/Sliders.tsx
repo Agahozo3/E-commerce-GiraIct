@@ -64,21 +64,21 @@ const ImageSlider = () => {
             </div>
           </div>
           <div className="flex items-start gap-3 flex-1 sm:border-r border-[#F5F7FA]-300 pb-4 sm:pb-0">
-            <BiMessageRoundedDetail size={26} className="text-[#d22127]" />
+            <BiMessageRoundedDetail size={26} className="text-[#d22127] mt-1" />
             <div className="pl-4">
               <span className="font-semibold text-black block text-sm">We are available 24/7</span>
               <span className="text-gray-600 text-xs">Need help? Contact us anytime</span>
             </div>
           </div>
           <div className="flex items-start gap-3 flex-1 sm:border-r border-[#F5F7FA]-300 pb-4 sm:pb-0">
-            <MdRefresh size={26} className="text-[#d22127]" />
+            <MdRefresh size={26} className="text-[#d22127] mt-1" />
             <div className="pl-4">
               <span className="font-semibold text-black block text-sm">Satisfaction or Return</span>
               <span className="text-gray-600 text-xs">Easy 30-day return policy</span>
             </div>
           </div>
           <div className="flex items-start gap-3 flex-1">
-            <FaAmazonPay size={26} className="text-[#d22127]" />
+            <FaAmazonPay size={26} className="text-[#d22127] mt-1" />
             <div className="pl-4">
               <span className="font-semibold text-black block text-sm">100% Secure Payments</span>
               <span className="text-gray-600 text-xs">Visa, Mastercard, Stripe, PayPal</span>

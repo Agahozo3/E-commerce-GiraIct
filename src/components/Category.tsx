@@ -47,7 +47,7 @@ const categories = [
 const Category = () => {
   return (
     <div className="container mx-auto px-12 mt-24 border border-gray-200 rounded-lg">
-      <div className="flex flex-wrap -mx-4">
+      <div className="flex flex-wrap -mx-4 mt-8">
         {categories.map((category, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/4 px-4 mb-8">
             <div className="bg-white rounded-lg overflow-hidden flex flex-col h-full">
@@ -59,12 +59,12 @@ const Category = () => {
                 />
               </Link>
               <div className="p-4 flex flex-col h-full">
-                <div className="flex flex-col ml-[80px] mt-[-60px]">
+                <div className="flex flex-col items-center justify-center mt-[-45px]">
                   <Link href="/product">
-                    <h3 className="text-lg font-semibold">{category.title}</h3>
+                    <h3 className="text-lg font-semibold text-center">{category.title}</h3>
                   </Link>
                   <Link href="/product">
-                    <span className="text-sm text-gray-600">{category.products} Products</span>
+                    <span className="text-sm text-gray-600 text-center mt-1">{category.products} Products</span>
                   </Link>
                 </div>
               </div>

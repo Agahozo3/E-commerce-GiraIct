@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { IoIosBasket } from "react-icons/io";
 import { ShoppingCart, Search } from 'lucide-react';
+import AppLogo from '@/components/AppLogo'
 
 const Landing = () => {
   return (
@@ -9,7 +10,7 @@ const Landing = () => {
       <div className="hidden md:flex flex-1 items-center justify-between mx-4">
         <div className="flex items-center pl-24">
           <Link href="/">
-            <Image src="/logo.jpeg" alt="Logo" width={120} height={40} />
+         <AppLogo />
           </Link>
         </div>
         <div className="relative w-full max-w-md mx-4">
